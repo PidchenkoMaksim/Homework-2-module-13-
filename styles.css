@@ -1,0 +1,956 @@
+/*play*/
+/* play-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v20-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* play-700 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v20-latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/*roboto*/
+/* roboto-100 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/roboto-v48-latin-100.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-100italic - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 100;
+    src: url('../fonts/roboto-v48-latin-100italic.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-200 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/roboto-v48-latin-200.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-200italic - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 200;
+    src: url('../fonts/roboto-v48-latin-200italic.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-300 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/roboto-v48-latin-300.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-300italic - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    src: url('../fonts/roboto-v48-latin-300italic.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v48-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-italic - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/roboto-v48-latin-italic.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-500 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v48-latin-500.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-500italic - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    src: url('../fonts/roboto-v48-latin-500italic.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-600 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/roboto-v48-latin-600.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-600italic - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 600;
+    src: url('../fonts/roboto-v48-latin-600italic.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-700 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v48-latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-700italic - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../fonts/roboto-v48-latin-700italic.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-800 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/roboto-v48-latin-800.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-800italic - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 800;
+    src: url('../fonts/roboto-v48-latin-800italic.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-900 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/roboto-v48-latin-900.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-900italic - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 900;
+    src: url('../fonts/roboto-v48-latin-900italic.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* --- VARIABLES --- */
+:root {
+    --color-brand-dark: #011C44;
+    --color-brand-light: #2B7FFF;
+    --color-primary-light: #FFFFFF;
+    --color-primary-gray: #747272;
+    --radius-large: 32px;
+}
+
+/* --- RESET & BASE --- */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    font-size: 18px;
+    color: var(--color-brand-dark);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+
+    margin-top: 0;
+
+}
+
+/* links */
+a {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* utility */
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* --- HEADER --- */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.25);
+    padding: 32px 0;
+    box-shadow: 0 2px 6px rgba(1, 28, 68, 0.06);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.logo img {
+    height: auto;
+    display: block;
+}
+
+/* nav */
+.header-nav .header-menu {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header-link {
+    color: var(--color-brand-dark);
+    font-weight: 500;
+    font-size: 16px;
+    padding: 6px 4px;
+    transition: color .2s, transform .15s;
+}
+
+.header-link:hover {
+    color: var(--color-brand-light);
+    transform: translateY(-1px);
+}
+
+/* contacts in header */
+.header-contacts {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon use {
+    pointer-events: none;
+}
+
+/* --- HERO --- */
+.hero-section {
+    padding: 165px 0 80px 0;
+    /* верхній відступ дає місце під зафіксований header */
+    background-image:
+        linear-gradient(94deg,
+            #fff 9.65%,
+            rgba(255, 255, 255, 0.85) 26.08%,
+            rgba(255, 255, 255, 0.19) 52.74%,
+            rgba(255, 255, 255, 0) 74.46%),
+        url('./background.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-container {
+    max-width: 760px;
+}
+
+.clinic {
+    font-size: 18px;
+    color: var(--color-primary-gray);
+    margin-bottom: 8px;
+}
+
+.hero-title {
+    font-family: "Play", system-ui, sans-serif;
+    font-size: 96px;
+    line-height: 0.9;
+    font-weight: 700;
+    margin: 6px 0 18px;
+    color: var(--color-brand-dark);
+}
+
+.order-info {
+    margin-top: 18px;
+    font-size: 14px;
+    color: var(--color-brand-dark);
+}
+
+/* --- BUTTONS --- */
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-brand-light);
+    color: var(--color-primary-light);
+    border: 2px solid var(--color-brand-light);
+    border-radius: 32px;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 14px 24px;
+    cursor: pointer;
+    transition: all .25s ease;
+}
+
+.button:hover {
+    background: transparent;
+    color: var(--color-brand-dark);
+    border-color: var(--color-brand-dark);
+}
+
+/* --- ABOUT US --- */
+.about-us-container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.about-text {
+    flex: 1 ;
+    min-width: 260px;
+    width: 709px;
+    align-self: flex-start;
+    margin-top: 40px;
+}
+
+.title-section {
+    text-align:center;
+    font-family: "Play", system-ui, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 20px;
+    color: var(--color-brand-dark);
+}
+
+.about-us-text {
+    margin-bottom: 16px;
+    font-size: 22px;
+    color: var(--color-brand-dark);
+}
+
+.accent {
+    color: var(--color-brand-light);
+}
+
+.accent-in-text {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* images */
+.about-images-group {
+    display: flex;
+    gap: 16px;
+    flex: 0 0 499px;
+    flex-direction: column;
+}
+
+.about-images {
+    width: 327px;
+    height: 327px;
+    object-fit: cover;
+    border-radius: 360px;
+    box-shadow: 0 4px 8px rgba(1, 28, 68, 0.08);
+}
+
+/* --- WHY US --- */
+.why-as-section {
+    padding: 80px 0;
+    text-align: center;
+    background: linear-gradient(180deg, #f5f9ff 0%, #ffffff 100%);
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 36px;
+    flex-wrap: wrap;
+}
+
+.why-item {
+    background: #fff;
+    border-radius: 20px;
+    padding: 28px 20px;
+    max-width: 316px;
+    height: 181px;
+    box-shadow: 0 6px 18px rgba(168, 198, 245, 0.2);
+    text-align: center;
+}
+
+.why-item img {
+    height: 48px;
+    margin: 0 auto 12px auto;
+}
+
+.why-item p {
+    font-size: 16px;
+    color: var(--color-brand-dark);
+    line-height: 1.4;
+}
+
+/* --- SERVICES --- */
+.services-container {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+    padding: 64px 0;
+    flex-wrap: wrap;
+}
+
+.services-list {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+}
+
+/* cards */
+.services-card-1,
+.services-card-2,
+.services-card-3 {
+    width: 344px;
+    height: 456px;
+    border-radius: 24px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: var(--color-primary-light);
+    text-align: center;
+    padding: 24px;
+    box-shadow: 0 8px 24px rgba(1, 28, 68, 0.12);
+    background-size: cover;
+    background-position: center;
+}
+
+/* background images (paths relative) */
+.services-card-1 {
+    background-image:
+        linear-gradient(180deg, rgba(1, 28, 68, 0) 47%, rgba(1, 28, 68, 0.73) 82%, #011C44 99%),
+        url('./Makeup1.jpg');
+}
+
+.services-card-2 {
+    background-image:
+        linear-gradient(180deg, rgba(1, 28, 68, 0) 47%, rgba(1, 28, 68, 0.73) 82%, #011C44 99%),
+        url('./Makeup2.jpg');
+}
+
+.services-card-3 {
+    background-image:
+        linear-gradient(180deg, rgba(1, 28, 68, 0) 47%, rgba(1, 28, 68, 0.73) 82%, #011C44 99%),
+        url('./Makeup3.jpg');
+}
+
+.services-text {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.18;
+    margin-bottom: 10px;
+}
+
+/* carousel buttons */
+.carousel-button {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1px solid var(--color-brand-dark);
+    background: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.carousel-button:hover {
+    background: var(--color-brand-light);
+    color: var(--color-primary-light);
+    border-color: var(--color-brand-light);
+}
+
+.carousel-button.next {
+    transform: rotate(180deg);
+}
+
+/* --- CONTACTS --- */
+.find-us-container {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 56px;
+    flex-wrap: wrap;
+}
+
+.map {
+    width: 605px;
+    height: 420px;
+    border-radius: 16px;
+    flex-shrink: 0;
+    box-shadow: 0 8px 18px rgba(1, 28, 68, 0.08);
+    border: 0;
+}
+
+/* form */
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--color-brand-dark);
+    border: 2px solid var(--color-brand-dark);
+    border-radius: var(--radius-large);
+    color: var(--color-primary-light);
+    width: 423px;
+    height: auto;
+    padding: 28px;
+    box-sizing: border-box;
+    background-image: url('./form-back.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.form-tittle {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.form-field {
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.hidden {
+    /* visually hidden label for accessibility */
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.input {
+    width: 100%;
+    padding: 14px 18px;
+    border-radius: 360px;
+    border: 1px solid var(--color-primary-gray);
+    background: transparent;
+    font-size: 14px;
+    color: var(--color-primary-light);
+    box-sizing: border-box;
+}
+
+.input::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.input:focus {
+    outline: none;
+    border-color: var(--color-brand-light);
+    box-shadow: 0 0 0 3px rgba(43, 127, 255, 0.08);
+}
+
+.button-form {
+    display: block;
+    margin: 12px auto 8px;
+}
+
+/* small secondary text in form */
+.useless {
+    font-size: 12px;
+    color: var(--color-primary-gray);
+    text-align: center;
+    margin-top: 8px;
+}
+
+.useless-link {
+    text-decoration: underline;
+    color: var(--color-primary-light);
+}
+
+/* --- FOOTER --- */
+.footer {
+    background-color: var(--color-brand-dark);
+    color: var(--color-primary-light);
+    padding: 56px 0;
+    background-image: url('./background-footer.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+}
+
+.footer-container {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* footer links */
+.footer-link,
+.address-link {
+    color: var(--color-primary-light);
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.addres{
+    font-size: normal;
+}
+
+.footer-link:hover,
+.address-link:hover {
+    color: var(--color-brand-light);
+}
+
+/* social icons block */
+.social-icons {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.social-icons svg {
+    width: 42px;
+    height: 42px;
+    fill: var(--color-primary-light);
+}
+
+/* confidance / small print */
+.konfidance {
+    font-size: 13px;
+    color: var(--color-primary-gray);
+    margin-top: 8px;
+}
+
+/* --- SVG ICONS BEHAVIOR --- */
+svg {
+    transition: fill .2s ease;
+}
+
+svg:hover {
+    fill: var(--color-brand-light);
+}
+
+/* --- MODAL / BACKDROP --- */
+.backdrop {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1500;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity .25s, visibility .25s;
+}
+
+.backdrop.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.modal {
+    background-color: var(--color-primary-light);
+    border-radius: 20px;
+    width: 100%;
+    max-width: 720px;
+    padding: 28px;
+    box-shadow: 0 10px 40px rgba(1, 28, 68, 0.2);
+    box-sizing: border-box;
+}
+
+.modal-button-close {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    border-radius: 48px;
+    border: 2px solid var(--color-brand-light);
+    background: var(--color-brand-light);
+    color: var(--color-brand-dark);
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: transform .3s ease;
+}
+
+.modal-button-close:hover {
+    transform: rotate(0.5turn) scale(1.1);
+}
+
+/* modal contained form tweaks */
+.modal .form {
+    background: transparent;
+    border: none;
+    color: var(--color-brand-dark);
+    width: 100%;
+    padding: 0;
+}
+
+.modal .input {
+    color: var(--color-brand-dark);
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.modal .button {
+    background: var(--color-brand-light);
+    color: var(--color-primary-light);
+    border-radius: 32px;
+    padding: 12px 24px;
+}
+
+/* --- Accessibility helpers --- */
+[aria-hidden="true"] {
+    display: none !important;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 1024px) {
+    .hero-title {
+        font-size: 72px;
+    }
+
+    .about-images {
+        width: 120px;
+        height: 120px;
+    }
+
+    .map {
+        width: 100%;
+        height: 360px;
+    }
+
+    .find-us-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .services-card-1,
+    .services-card-2,
+    .services-card-3 {
+        width: 300px;
+        height: 420px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        padding: 0 10px;
+    }
+
+    .header-menu {
+        gap: 14px;
+        font-size: 15px;
+    }
+
+    .hero-section {
+        padding: 120px 0 48px;
+        background-position: center 10%;
+    }
+
+    .hero-title {
+        font-size: 48px;
+    }
+
+    .about-us-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 18px;
+        padding: 36px 0;
+    }
+
+    .about-images-group {
+        justify-content: center;
+    }
+
+    .services-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .services-container {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .form {
+        width: 100%;
+        max-width: 520px;
+    }
+
+    .map {
+        height: 300px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 420px) {
+    .hero-title {
+        font-size: 36px;
+        line-height: 1.05;
+    }
+
+    .title-section {
+        font-size: 32px;
+    }
+
+    .button {
+        padding: 12px 18px;
+        font-size: 15px;
+    }
+
+    .about-images {
+        width: 100px;
+        height: 100px;
+    }
+
+    .services-card-1,
+    .services-card-2,
+    .services-card-3 {
+        width: 100%;
+        max-width: 320px;
+        height: 380px;
+    }
+
+    .container {
+        padding: 0 12px;
+    }
+}
